@@ -6,3 +6,17 @@ Feature: Contacts page
     And the user enter the driver information
     When the user navigates "Customers" and "Contacts"
     Then default page number should be 1
+
+
+  Scenario: Verify Create CalenderEvent
+    Given the user is on the login page
+    And the user enter sales manager information
+    When the user navigates to "Activities", "Calendar Events"
+
+  @wip
+  Scenario: Menu options
+    Given the user logged in as "driver"
+    Then the user should see following options
+      || Fleet || Customer || Activities || System ||
+
+

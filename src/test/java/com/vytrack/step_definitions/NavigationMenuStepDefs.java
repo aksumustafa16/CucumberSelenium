@@ -46,6 +46,11 @@ public class NavigationMenuStepDefs {
         new DashboardPage().navigateToModule(tab,module);
     }
 
+    @When("the user navigates to {string}, {string}")
+    public void the_user_navigates_to(String string, String string2) {
+        System.out.println("Navigate to Activities and Calender Events");
+    }
+
     @Then("default page number should be {int}")
     public void default_page_number_should_be(Integer expectedPageNumber) {
         BrowserUtils.waitFor(15);
