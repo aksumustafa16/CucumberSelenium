@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-02-11T20:18:31.211Z",
+        "start_timestamp": "2023-02-11T20:54:29.135Z",
         "before": [
           {
             "result": {
-              "duration": 1563645900,
+              "duration": 1433153200,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 128008900,
+              "duration": 311642800,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1959700,
+              "duration": 11315194800,
               "status": "passed"
             },
             "line": 18,
@@ -53,9 +53,8 @@
           },
           {
             "result": {
-              "error_message": "io.cucumber.core.exception.CucumberException: Could not convert arguments for step [the user should see following options] defined at \u0027com.vytrack.step_definitions.ContactsStepDefs.the_user_should_see_following_options(java.util.List\u003cjava.lang.String\u003e)\u0027.\nIt appears you did not register a data table type. The details are in the stacktrace below.\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.registerDataTableTypeInConfiguration(PickleStepDefinitionMatch.java:109)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:49)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:51)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:67)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:219)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\r\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\r\nCaused by: io.cucumber.datatable.UndefinedDataTableTypeException: Can\u0027t convert DataTable to List\u003cjava.lang.String\u003e.\nPlease review these problems:\n\n - There was a table cell transformer for java.lang.String but the table was too wide to use it.\n   Please reduce the table width to use this converter.\n\n - There was no table entry or table row transformer registered for java.lang.String.\n   Please consider registering a table entry or row transformer.\n\nNote: Usually solving one is enough\r\n\tat io.cucumber.datatable.UndefinedDataTableTypeException.listNoConverterDefined(UndefinedDataTableTypeException.java:110)\r\n\tat io.cucumber.datatable.DataTableTypeRegistryTableConverter.toList(DataTableTypeRegistryTableConverter.java:136)\r\n\tat io.cucumber.datatable.DataTableTypeRegistryTableConverter.convert(DataTableTypeRegistryTableConverter.java:102)\r\n\tat io.cucumber.datatable.DataTable.convert(DataTable.java:360)\r\n\tat io.cucumber.core.stepexpression.StepExpressionFactory.lambda$createExpression$4(StepExpressionFactory.java:63)\r\n\tat io.cucumber.core.stepexpression.DataTableArgument.getValue(DataTableArgument.java:19)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:47)\r\n\t... 32 more\r\n",
-              "duration": 3012700,
-              "status": "failed"
+              "duration": 2116070000,
+              "status": "passed"
             },
             "line": 19,
             "name": "the user should see following options",
@@ -65,15 +64,22 @@
             "rows": [
               {
                 "cells": [
-                  "",
-                  "Fleet",
-                  "",
-                  "Customer",
-                  "",
-                  "Activities",
-                  "",
-                  "System",
-                  ""
+                  "Fleet"
+                ]
+              },
+              {
+                "cells": [
+                  "Customers"
+                ]
+              },
+              {
+                "cells": [
+                  "Activities"
+                ]
+              },
+              {
+                "cells": [
+                  "System"
                 ]
               }
             ],

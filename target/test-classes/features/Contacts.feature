@@ -17,6 +17,11 @@ Feature: Contacts page
   Scenario: Menu options
     Given the user logged in as "driver"
     Then the user should see following options
-      || Fleet || Customer || Activities || System ||
+      | Fleet      |
+      | Customers  |
+      | Activities |
+      | System     |
+
+
 
 
