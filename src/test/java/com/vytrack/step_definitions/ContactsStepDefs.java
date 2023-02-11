@@ -8,10 +8,12 @@ import com.vytrack.utilities.ConfigurationReader;
 import com.vytrack.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.junit.Assert;
 
 import java.sql.SQLOutput;
 import java.util.List;
+import java.util.Map;
 
 public class ContactsStepDefs {
 
@@ -50,9 +52,18 @@ public class ContactsStepDefs {
         Assert.assertEquals(menuOptions,actualOptions);
         System.out.println("actualOptions = " + actualOptions);
         System.out.println("menuOptions = " + menuOptions);
+    }
 
+    @When("the user logs in using following credentials")
+    public void the_user_logs_in_using_following_credentials(Map<String,String> userinfo) {
+        System.out.println("userinfo = " + userinfo);
+        new LoginPage().login(userinfo.get("username"),userinfo.get("password"));
+        String expectedName = userinfo.get("firstname") + " " + userinfo.get("lastname");
+        String actualName = new DashboardPage().userName.getText();
 
-
+        Assert.assertEquals(expectedName,actualName);
+        System.out.println("actualName = " + actualName);
+        System.out.println("expectedName = " + expectedName);
     }
 
 }

@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-02-11T20:54:29.135Z",
+        "start_timestamp": "2023-02-11T21:19:57.066Z",
         "before": [
           {
             "result": {
-              "duration": 1433153200,
+              "duration": 1555212000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 17,
-        "name": "Menu options",
+        "line": 26,
+        "name": "login as a given user",
         "description": "",
-        "id": "contacts-page;menu-options",
+        "id": "contacts-page;login-as-a-given-user",
         "after": [
           {
             "result": {
-              "duration": 311642800,
+              "duration": 202337500,
               "status": "passed"
             },
             "match": {
@@ -35,54 +35,64 @@
         "steps": [
           {
             "result": {
-              "duration": 11315194800,
+              "duration": 4353957000,
               "status": "passed"
             },
-            "line": 18,
-            "name": "the user logged in as \"driver\"",
+            "line": 27,
+            "name": "the user is on the login page",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"driver\"",
-                  "offset": 22
-                }
-              ],
-              "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_logged_in_as(java.lang.String)"
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2116070000,
+              "duration": 4810282700,
               "status": "passed"
             },
-            "line": 19,
-            "name": "the user should see following options",
+            "line": 28,
+            "name": "the user logs in using following credentials",
             "match": {
-              "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_should_see_following_options(java.util.List\u003cjava.lang.String\u003e)"
+              "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_logs_in_using_following_credentials(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
             },
             "rows": [
               {
                 "cells": [
-                  "Fleet"
+                  "username",
+                  "user1"
                 ]
               },
               {
                 "cells": [
-                  "Customers"
+                  "password",
+                  "UserUser123"
                 ]
               },
               {
                 "cells": [
-                  "Activities"
+                  "firstname",
+                  "John"
                 ]
               },
               {
                 "cells": [
-                  "System"
+                  "lastname",
+                  "Doe"
                 ]
               }
             ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3018640400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_should_be_able_to_login()"
+            },
             "keyword": "Then "
           }
         ],
