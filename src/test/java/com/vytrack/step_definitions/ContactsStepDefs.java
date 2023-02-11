@@ -59,7 +59,7 @@ public class ContactsStepDefs {
         System.out.println("userinfo = " + userinfo);
         new LoginPage().login(userinfo.get("username"),userinfo.get("password"));
         String expectedName = userinfo.get("firstname") + " " + userinfo.get("lastname");
-        String actualName = new DashboardPage().userName.getText();
+        String actualName = new DashboardPage().getUserName();
 
         Assert.assertEquals(expectedName,actualName);
         System.out.println("actualName = " + actualName);

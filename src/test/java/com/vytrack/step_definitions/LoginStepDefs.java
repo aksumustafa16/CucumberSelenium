@@ -23,8 +23,8 @@ public class LoginStepDefs {
 
     @When("the user enter the driver information")
     public void the_user_enter_the_driver_information() {
-        String username = ConfigurationReader.get("sales_manager_username");
-        String password = ConfigurationReader.get("sales_manager_password");
+        String username = ConfigurationReader.get("driver_username");
+        String password = ConfigurationReader.get("driver_password");
         LoginPage loginPage = new LoginPage();
         loginPage.login(username, password);
     }
@@ -33,7 +33,7 @@ public class LoginStepDefs {
     public void the_user_should_be_able_to_login() {
         BrowserUtils.waitFor(3);
         String actualTitle = Driver.get().getTitle();
-        Assert.assertEquals("Verify title", "Dashboard", actualTitle);
+        Assert.assertEquals("Verify title", "Dashboards", actualTitle);
     }
 
     @When("the user enter sales manager information")
