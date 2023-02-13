@@ -55,7 +55,7 @@ public class ContactsStepDefs {
 
     @When("the user logs in using following credentials")
     public void the_user_logs_in_using_following_credentials(Map<String,String> userinfo) {
-        System.out.println("userinfo = " + userinfo);
+
         new LoginPage().login(userinfo.get("username"),userinfo.get("password"));
         String expectedName = userinfo.get("firstname") + " " + userinfo.get("lastname");
         String actualName = new DashboardPage().getUserName();

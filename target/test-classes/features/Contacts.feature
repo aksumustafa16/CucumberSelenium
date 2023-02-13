@@ -11,7 +11,7 @@ Feature: Contacts page
   Scenario: Verify Create CalenderEvent
     Given the user is on the login page
     And the user enter sales manager information
-    When the user navigates to "Activities", "Calendar Events"
+    When the user navigates to "Activities" "Calendar Events"
 
 
   Scenario: Menu options
