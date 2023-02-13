@@ -1,5 +1,6 @@
 package com.vytrack.step_definitions;
 
+import com.vytrack.pages.DashboardPage;
 import com.vytrack.pages.LoginPage;
 import com.vytrack.utilities.BrowserUtils;
 import com.vytrack.utilities.ConfigurationReader;
@@ -13,10 +14,11 @@ public class LoginStepDefs {
 
     @Given("the user is on the login page")
     public void the_user_is_on_the_login_page() {
-        String url = ConfigurationReader.get("url");
         //WebDriver driver = Driver.get();
         //driver.get("url");
         //instead of driver object we will use Driver.get() directly
+
+        String url = ConfigurationReader.get("url");
         Driver.get().get(url);
 
     }
@@ -60,7 +62,9 @@ public class LoginStepDefs {
 
     @Then("the title contains {string}")
     public void the_title_contains(String expectedTitle) {
-        Assert.assertTrue(Driver.get().getTitle().contains(expectedTitle));
+        BrowserUtils.waitFor(2);
+        System.out.println("expectedTitle = " + expectedTitle);
+        Assert.assertTrue("Actual Title: " + Driver.get().getTitle(), Driver.get().getTitle().contains(expectedTitle));
     }
 
 }

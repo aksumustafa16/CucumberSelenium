@@ -29,14 +29,13 @@ public class ContactsStepDefs {
         if (userType.equals("driver")) {
             username = ConfigurationReader.get("driver_username");
             password = ConfigurationReader.get("driver_password");
-        } else if (userType.equals("salas_manager")) {
+        } else if (userType.equals("sales manager")) {
             username = ConfigurationReader.get("sales_manager_username");
             password = ConfigurationReader.get("sales_manager_password");
-        } else if (userType.equals("store_manager")) {
+        } else if (userType.equals("store manager")) {
             username = ConfigurationReader.get("store_manager_username");
             password = ConfigurationReader.get("store_manager_password");
         }
-
         //send username and password
         new LoginPage().login(username, password);
     }
