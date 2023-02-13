@@ -1,25 +1,25 @@
 Feature: Account types
 
-
+  @wip
   Scenario: Driver user
     Given the user logged in as "driver"
     When the user navigates to "Activities" "Calendar Events"
     Then the title contains "Calendar Events - Activities"
 
-
+  @wip
   Scenario: Sales manager user
     Given the user logged in as "sales manager"
     When the user navigates to "Customers" "Accounts"
-    Then the title contains "Accounts - Customers"
+    Then the title contains "Accounts - CustomersS"
 
-
+  @wip
   Scenario: Store manager user
     Given the user logged in as "store manager"
     When the user navigates to "Customers" "Contacts"
     Then the title contains "Contacts - Customers"
 
 
-  @wip
+
   Scenario Outline: Login with Different accounts <userType>
     Given the user logged in as "<userType>"
     When the user navigates to "<tab>" "<module>"
