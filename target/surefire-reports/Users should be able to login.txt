@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: Users should be able to login
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 55.864 s <<< FAILURE! - in Users should be able to login
+Login as a driver(Users should be able to login)  Time elapsed: 11.584 s  <<< FAILURE!
+org.junit.ComparisonFailure: Verify title expected:<[Dashboards]> but was:<[Loading...]>
+
+Login as a sales manager(Users should be able to login)  Time elapsed: 16.942 s  <<< FAILURE!
+org.junit.ComparisonFailure: Verify title expected:<Dashboard[s]> but was:<Dashboard[]>
+
+Login as a store manager(Users should be able to login)  Time elapsed: 27.338 s  <<< FAILURE!
+org.junit.ComparisonFailure: Verify title expected:<Dashboard[s]> but was:<Dashboard[]>
+

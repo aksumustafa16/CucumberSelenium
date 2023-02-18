@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="CucumberSelenium" />
+        <module name="EU2CucumberSelenium" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CucumberSelenium" target="19" />
+    </bytecodeTargetLevel>
   </component>
 </project>
