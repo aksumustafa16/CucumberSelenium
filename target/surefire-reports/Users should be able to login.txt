@@ -1,51 +1,43 @@
 -------------------------------------------------------------------------------
 Test set: Users should be able to login
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 4, Skipped: 0, Time elapsed: 24.726 s <<< FAILURE! - in Users should be able to login
-Login as a driver(Users should be able to login)  Time elapsed: 17.097 s  <<< FAILURE!
-org.junit.ComparisonFailure: Verify title expected:<Dashboard[s]> but was:<Dashboard[]>
+Tests run: 5, Failures: 1, Errors: 4, Skipped: 0, Time elapsed: 13.975 s <<< FAILURE! - in Users should be able to login
+Login as a driver(Users should be able to login)  Time elapsed: 11.994 s  <<< FAILURE!
+org.junit.ComparisonFailure: Verify title expected:<[Dashboards]> but was:<[Loading...]>
 
-Login as a sales manager(Users should be able to login)  Time elapsed: 7.613 s  <<< ERROR!
-org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=110.0.5481.104)
+Login as a sales manager(Users should be able to login)  Time elapsed: 1.972 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:21841
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'TABLET-7QLDR4EO', ip: '172.20.10.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\AKSUMU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52131}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a2bc3ef8afdaedaeef227d74e61c5af
+System info: host: 'TABLET-7QLDR4EO', ip: '129.0.0.123', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:21841
+Caused by: java.net.ConnectException: Connection refused: no further information
 
 Login as a sales manager(Users should be able to login)  Time elapsed: 0 s  <<< ERROR!
-org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=110.0.5481.104)
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:21841
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'TABLET-7QLDR4EO', ip: '172.20.10.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\AKSUMU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52131}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a2bc3ef8afdaedaeef227d74e61c5af
+System info: host: 'TABLET-7QLDR4EO', ip: '129.0.0.123', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:21841
+Caused by: java.net.ConnectException: Connection refused: no further information
 
-Login as a store manager(Users should be able to login)  Time elapsed: 0.016 s  <<< ERROR!
-org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=110.0.5481.104)
+Login as a store manager(Users should be able to login)  Time elapsed: 0.009 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:21841
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'TABLET-7QLDR4EO', ip: '172.20.10.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\AKSUMU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52131}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a2bc3ef8afdaedaeef227d74e61c5af
+System info: host: 'TABLET-7QLDR4EO', ip: '129.0.0.123', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:21841
+Caused by: java.net.ConnectException: Connection refused: no further information
 
 Login as a store manager(Users should be able to login)  Time elapsed: 0 s  <<< ERROR!
-org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=110.0.5481.104)
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:21841
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'TABLET-7QLDR4EO', ip: '172.20.10.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\AKSUMU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52131}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a2bc3ef8afdaedaeef227d74e61c5af
+System info: host: 'TABLET-7QLDR4EO', ip: '129.0.0.123', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:21841
+Caused by: java.net.ConnectException: Connection refused: no further information
 

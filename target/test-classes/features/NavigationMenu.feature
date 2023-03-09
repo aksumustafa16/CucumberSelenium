@@ -1,6 +1,6 @@
 @navigate
 Feature: Navigation Menu
-
+@smoke
   Scenario: Navigation Fleet -- Vehicles
     Given the user is on the login page
     And the user enter sales manager information
