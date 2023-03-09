@@ -1,0 +1,745 @@
+# Created at 2023-02-19T15:58:44.626
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+
+# Created at 2023-02-19T15:58:45.134
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.141
+Unexpected IOException with stream: 	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67)
+
+# Created at 2023-02-19T15:58:45.142
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.142
+Unexpected IOException with stream: 	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)
+
+# Created at 2023-02-19T15:58:45.143
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.143
+Unexpected IOException with stream: 	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
+
+# Created at 2023-02-19T15:58:45.144
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.144
+Unexpected IOException with stream: 	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
+
+# Created at 2023-02-19T15:58:45.145
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.145
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+
+# Created at 2023-02-19T15:58:45.146
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.146
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+
+# Created at 2023-02-19T15:58:45.147
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.147
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+
+# Created at 2023-02-19T15:58:45.148
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.148
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+
+# Created at 2023-02-19T15:58:45.149
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.149
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+
+# Created at 2023-02-19T15:58:45.149
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.150
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+
+# Created at 2023-02-19T15:58:45.150
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.151
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+
+# Created at 2023-02-19T15:58:45.151
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.151
+Unexpected IOException with stream: 	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)
+
+# Created at 2023-02-19T15:58:45.152
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.152
+Unexpected IOException with stream: 	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)
+
+# Created at 2023-02-19T15:58:45.152
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.153
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+
+# Created at 2023-02-19T15:58:45.153
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.153
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+
+# Created at 2023-02-19T15:58:45.154
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.154
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+
+# Created at 2023-02-19T15:58:45.154
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.154
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+
+# Created at 2023-02-19T15:58:45.155
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.155
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+
+# Created at 2023-02-19T15:58:45.156
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.156
+Unexpected IOException with stream: 	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:219)
+
+# Created at 2023-02-19T15:58:45.156
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.156
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+
+# Created at 2023-02-19T15:58:45.157
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.157
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+
+# Created at 2023-02-19T15:58:45.157
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.158
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2023-02-19T15:58:45.158
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.158
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2023-02-19T15:58:45.159
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.159
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2023-02-19T15:58:45.159
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.160
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2023-02-19T15:58:45.160
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.160
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2023-02-19T15:58:45.160
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.161
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2023-02-19T15:58:45.161
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.161
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2023-02-19T15:58:45.162
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:45.162
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2023-02-19T15:58:45.162
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:51.345
+Unexpected IOException: 7,1,Account types,Driver user(Account types),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288\000A*** Element info: {Using=xpath\002C value=//span[normalize-space()='Calendar Events' and contains(@class\002C 'title title-level-2')]},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288\000A*** Element info: {Using=xpath\002C value=//span[normalize-space()='Calendar Events' and contains(@class\002C 'title title-level-2')]},no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288\000A*** Element info: {Using=xpath\002C value=//span[normalize-space()='Calendar Events' and contains(@class\002C 'title title-level-2')]},org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288\000A*** Element info: {Using=xpath\002C value=//span[normalize-space()='Calendar Events' and contains(@class\002C 'title title-level-2')]}\000A
+
+
+# Created at 2023-02-19T15:58:51.346
+Unexpected IOException: 7,1,Account types,Driver user(Account types),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288\000A
+
+
+# Created at 2023-02-19T15:58:51.348
+Unexpected IOException: 5,1,Account types,Sales manager user(Account types),null,null,null
+
+
+# Created at 2023-02-19T15:58:51.353
+Unexpected IOException with stream: 	this is coming from BEFORE
+
+
+# Created at 2023-02-19T15:58:51.362
+Unexpected IOException: 7,1,Account types,Sales manager user(Account types),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288\000A
+
+
+# Created at 2023-02-19T15:58:51.363
+Unexpected IOException: 7,1,Account types,Sales manager user(Account types),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288\000A
+
+
+# Created at 2023-02-19T15:58:51.363
+Unexpected IOException: 5,1,Account types,Store manager user(Account types),null,null,null
+
+
+# Created at 2023-02-19T15:58:51.365
+Unexpected IOException with stream: 	this is coming from BEFORE
+
+
+# Created at 2023-02-19T15:58:51.375
+Unexpected IOException: 7,1,Account types,Store manager user(Account types),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288\000A
+
+
+# Created at 2023-02-19T15:58:51.376
+Unexpected IOException: 7,1,Account types,Store manager user(Account types),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=110.0.5481.104)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TABLET-7QLDR4EO'\002C ip: '172.20.10.6'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.104\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CAKSUMU~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:56386}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 05add1ebfc5a4997bbaa6f3da51be288\000A
+
+
+# Created at 2023-02-19T15:58:51.393
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:51.394
+Unexpected IOException with stream: [31mFailed scenarios:[0m
+
+
+# Created at 2023-02-19T15:58:51.394
+Unexpected IOException with stream: [31mfile:///C:/Users/aksumustafa16/IdeaProjects/CucumberSelenium/src/test/resources/features/AccountTypes.feature:4[0m
+
+# Created at 2023-02-19T15:58:51.394
+Unexpected IOException with stream: # Driver user
+
+
+# Created at 2023-02-19T15:58:51.395
+Unexpected IOException with stream: [31mfile:///C:/Users/aksumustafa16/IdeaProjects/CucumberSelenium/src/test/resources/features/AccountTypes.feature:10[0m
+
+# Created at 2023-02-19T15:58:51.395
+Unexpected IOException with stream: # Sales manager user
+
+
+# Created at 2023-02-19T15:58:51.395
+Unexpected IOException with stream: [31mfile:///C:/Users/aksumustafa16/IdeaProjects/CucumberSelenium/src/test/resources/features/AccountTypes.feature:16[0m
+
+# Created at 2023-02-19T15:58:51.395
+Unexpected IOException with stream: # Store manager user
+
+
+# Created at 2023-02-19T15:58:51.396
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:51.396
+Unexpected IOException with stream: 3
+
+# Created at 2023-02-19T15:58:51.396
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2023-02-19T15:58:51.397
+Unexpected IOException with stream: [31m3 failed[0m
+
+# Created at 2023-02-19T15:58:51.397
+Unexpected IOException with stream: )
+
+
+# Created at 2023-02-19T15:58:51.397
+Unexpected IOException with stream: 9
+
+# Created at 2023-02-19T15:58:51.397
+Unexpected IOException with stream:  Steps (
+
+# Created at 2023-02-19T15:58:51.398
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2023-02-19T15:58:51.398
+Unexpected IOException with stream: , 
+
+# Created at 2023-02-19T15:58:51.398
+Unexpected IOException with stream: [36m7 skipped[0m
+
+# Created at 2023-02-19T15:58:51.399
+Unexpected IOException with stream: , 
+
+# Created at 2023-02-19T15:58:51.399
+Unexpected IOException with stream: [32m1 passed[0m
+
+# Created at 2023-02-19T15:58:51.399
+Unexpected IOException with stream: )
+
+
+# Created at 2023-02-19T15:58:51.400
+Unexpected IOException with stream: 0m
+
+# Created at 2023-02-19T15:58:51.403
+Unexpected IOException with stream: 21.269s
+
+
+# Created at 2023-02-19T15:58:51.404
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:51.404
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:51.405
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TABLET-7QLDR4EO', ip: '172.20.10.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\AKSUMU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56386}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05add1ebfc5a4997bbaa6f3da51be288
+*** Element info: {Using=xpath, value=//span[normalize-space()='Calendar Events' and contains(@class, 'title title-level-2')]}
+
+
+# Created at 2023-02-19T15:58:51.405
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+
+
+# Created at 2023-02-19T15:58:51.405
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+
+
+# Created at 2023-02-19T15:58:51.406
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+
+
+# Created at 2023-02-19T15:58:51.406
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+
+# Created at 2023-02-19T15:58:51.406
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+
+# Created at 2023-02-19T15:58:51.406
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+
+# Created at 2023-02-19T15:58:51.406
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+
+# Created at 2023-02-19T15:58:51.407
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+
+# Created at 2023-02-19T15:58:51.407
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+
+# Created at 2023-02-19T15:58:51.407
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+
+# Created at 2023-02-19T15:58:51.407
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+
+
+# Created at 2023-02-19T15:58:51.408
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+
+# Created at 2023-02-19T15:58:51.408
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+
+# Created at 2023-02-19T15:58:51.408
+Unexpected IOException with stream: 	at com.vytrack.pages.BasePage.navigateToModule(BasePage.java:113)
+
+
+# Created at 2023-02-19T15:58:51.408
+Unexpected IOException with stream: 	at com.vytrack.step_definitions.NavigationMenuStepDefs.the_user_navigates_to(NavigationMenuStepDefs.java:51)
+
+
+# Created at 2023-02-19T15:58:51.409
+Unexpected IOException with stream: 	at ✽.the user navigates to "Activities" "Calendar Events"(file:///C:/Users/aksumustafa16/IdeaProjects/CucumberSelenium/src/test/resources/features/AccountTypes.feature:6)
+
+
+# Created at 2023-02-19T15:58:51.409
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:51.409
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TABLET-7QLDR4EO', ip: '172.20.10.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\AKSUMU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56386}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05add1ebfc5a4997bbaa6f3da51be288
+
+
+# Created at 2023-02-19T15:58:51.409
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+
+
+# Created at 2023-02-19T15:58:51.410
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+
+
+# Created at 2023-02-19T15:58:51.410
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+
+
+# Created at 2023-02-19T15:58:51.410
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+
+# Created at 2023-02-19T15:58:51.410
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+
+# Created at 2023-02-19T15:58:51.410
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+
+# Created at 2023-02-19T15:58:51.411
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+
+# Created at 2023-02-19T15:58:51.411
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+
+# Created at 2023-02-19T15:58:51.411
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+
+# Created at 2023-02-19T15:58:51.411
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+
+
+# Created at 2023-02-19T15:58:51.412
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+
+
+# Created at 2023-02-19T15:58:51.412
+Unexpected IOException with stream: 	at com.vytrack.step_definitions.Hooks.tearDown(Hooks.java:22)
+
+
+# Created at 2023-02-19T15:58:51.412
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:51.412
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TABLET-7QLDR4EO', ip: '172.20.10.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\AKSUMU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56386}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05add1ebfc5a4997bbaa6f3da51be288
+
+
+# Created at 2023-02-19T15:58:51.413
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+
+
+# Created at 2023-02-19T15:58:51.413
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+
+
+# Created at 2023-02-19T15:58:51.413
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+
+
+# Created at 2023-02-19T15:58:51.414
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+
+# Created at 2023-02-19T15:58:51.414
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+
+# Created at 2023-02-19T15:58:51.414
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+
+# Created at 2023-02-19T15:58:51.414
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+
+# Created at 2023-02-19T15:58:51.415
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+
+# Created at 2023-02-19T15:58:51.415
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+
+# Created at 2023-02-19T15:58:51.415
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+
+
+# Created at 2023-02-19T15:58:51.415
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+
+
+# Created at 2023-02-19T15:58:51.416
+Unexpected IOException with stream: 	at com.vytrack.step_definitions.Hooks.setUp(Hooks.java:16)
+
+
+# Created at 2023-02-19T15:58:51.416
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:51.416
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TABLET-7QLDR4EO', ip: '172.20.10.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\AKSUMU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56386}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05add1ebfc5a4997bbaa6f3da51be288
+
+
+# Created at 2023-02-19T15:58:51.416
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+
+
+# Created at 2023-02-19T15:58:51.417
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+
+
+# Created at 2023-02-19T15:58:51.417
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+
+
+# Created at 2023-02-19T15:58:51.417
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+
+# Created at 2023-02-19T15:58:51.417
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+
+# Created at 2023-02-19T15:58:51.418
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+
+# Created at 2023-02-19T15:58:51.418
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+
+# Created at 2023-02-19T15:58:51.418
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+
+# Created at 2023-02-19T15:58:51.418
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+
+# Created at 2023-02-19T15:58:51.420
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+
+
+# Created at 2023-02-19T15:58:51.420
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+
+
+# Created at 2023-02-19T15:58:51.420
+Unexpected IOException with stream: 	at com.vytrack.step_definitions.Hooks.tearDown(Hooks.java:22)
+
+
+# Created at 2023-02-19T15:58:51.420
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:51.420
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TABLET-7QLDR4EO', ip: '172.20.10.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\AKSUMU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56386}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05add1ebfc5a4997bbaa6f3da51be288
+
+
+# Created at 2023-02-19T15:58:51.420
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+
+
+# Created at 2023-02-19T15:58:51.421
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+
+
+# Created at 2023-02-19T15:58:51.421
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+
+
+# Created at 2023-02-19T15:58:51.421
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+
+# Created at 2023-02-19T15:58:51.422
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+
+# Created at 2023-02-19T15:58:51.422
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+
+# Created at 2023-02-19T15:58:51.422
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+
+# Created at 2023-02-19T15:58:51.423
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+
+# Created at 2023-02-19T15:58:51.423
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+
+# Created at 2023-02-19T15:58:51.423
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+
+
+# Created at 2023-02-19T15:58:51.424
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+
+
+# Created at 2023-02-19T15:58:51.424
+Unexpected IOException with stream: 	at com.vytrack.step_definitions.Hooks.setUp(Hooks.java:16)
+
+
+# Created at 2023-02-19T15:58:51.424
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:51.425
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TABLET-7QLDR4EO', ip: '172.20.10.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\AKSUMU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56386}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05add1ebfc5a4997bbaa6f3da51be288
+
+
+# Created at 2023-02-19T15:58:51.425
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+
+
+# Created at 2023-02-19T15:58:51.425
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+
+
+# Created at 2023-02-19T15:58:51.426
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+
+
+# Created at 2023-02-19T15:58:51.426
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+
+# Created at 2023-02-19T15:58:51.426
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+
+# Created at 2023-02-19T15:58:51.427
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+
+# Created at 2023-02-19T15:58:51.427
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+
+# Created at 2023-02-19T15:58:51.427
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+
+# Created at 2023-02-19T15:58:51.427
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+
+# Created at 2023-02-19T15:58:51.428
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+
+
+# Created at 2023-02-19T15:58:51.428
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+
+
+# Created at 2023-02-19T15:58:51.428
+Unexpected IOException with stream: 	at com.vytrack.step_definitions.Hooks.tearDown(Hooks.java:22)
+
+
+# Created at 2023-02-19T15:58:51.428
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:51.429
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-19T15:58:51.429
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.vytrack.runners.CukesRunner,null,null,null
+
+
